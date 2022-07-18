@@ -16,7 +16,7 @@ module.exports.getProductsList = async (event) => {
 module.exports.getProductsById = async (event) => {
   const data = await fs.readFile('./mocks/products.json');
   const products = JSON.parse(data);
-  const product = products.find((el) => el.id === paramId);
+  const product = products.find((el) => el.id === event.pathParameters.id);
   if (product) {
     return {
       statusCode: 200,
