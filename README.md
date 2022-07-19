@@ -15,7 +15,7 @@ https://d31vfpmw4lhe5l.cloudfront.net/
 - [x] Async/await is used in lambda functions
 - [x] Main error scenarios are handled by API ("Product not found" error).
 - [x] 1 (All languages) - Lambda handlers are covered by basic UNIT tests (NO infrastructure logic is needed to be covered)
-
+- [x] Lambda handlers (getProductsList, getProductsById) code is written not in 1 single module (file) and separated in codebase
 
 ## FE PR link (if needed)
 https://github.com/ectuser/shop-angular-cloudfront/pull/2
