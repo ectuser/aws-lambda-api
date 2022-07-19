@@ -14,6 +14,8 @@ https://d31vfpmw4lhe5l.cloudfront.net/
 - [x] Your own Frontend application is integrated with product service (/products API) and products from product-service are represented on Frontend. AND POINT1 and POINT2 are done
 - [x] Async/await is used in lambda functions
 - [x] Main error scenarios are handled by API ("Product not found" error).
+- [x] 1 (All languages) - Lambda handlers are covered by basic UNIT tests (NO infrastructure logic is needed to be covered)
+
 
 ## FE PR link (if needed)
 https://github.com/ectuser/shop-angular-cloudfront/pull/2
